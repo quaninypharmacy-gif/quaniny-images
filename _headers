@@ -2,3 +2,8 @@
 /p/*
   Cache-Control: public, max-age=31536000, immutable
   Access-Control-Allow-Origin: *
+
+# 🆕 22/11/2026 توافر الموقع (tools/export-site-availability.js كل ساعة) — كاش 5 دقايق بس
+/availability.json
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
